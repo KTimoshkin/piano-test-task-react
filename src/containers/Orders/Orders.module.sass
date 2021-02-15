@@ -1,0 +1,57 @@
+.orders
+  font-family: Open Sans
+  font-style: normal
+  font-weight: normal
+
+  header
+    padding: 10px
+    display: flex
+    flex-direction: row
+    justify-content: space-between
+    margin-bottom: 80px
+
+    .logo
+      font-size: 13px
+      line-height: 14px
+      color: #0A0E12
+
+    .addOrder
+      a
+        font-size: 13px
+        line-height: 14px
+        color: #FFFFFF
+        text-decoration: none
+
+        background: linear-gradient(180deg, #5778B2 0%, #4E70AD 100%)
+        border-radius: 38px
+        padding: 8px 13px
+        &:hover
+          background: linear-gradient(180deg, #5271A8 0%, #4A6AA3 100%)
+
+  &__Content
+    width: 900px
+    margin: 0 auto
+    &Header
+      display: flex
+      padding: 14px
+      border-bottom: 1px solid rgba(20, 27, 36, 0.1)
+
+      font-size: 13px
+      line-height: 14px
+      color: rgba(20, 27, 36, 0.7)
+
+.order
+  display: flex
+  padding: 20px 24px
+  border-bottom: 1px solid rgba(20, 27, 36, 0.1)
+
+  font-size: 13px
+  line-height: 14px
+  color: #0A0E12
+
+.col
+  &__1
+    width: 33%
+
+  &__2
+    width: 66%
